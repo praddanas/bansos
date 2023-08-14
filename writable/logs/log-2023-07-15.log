@@ -1,0 +1,137 @@
+CRITICAL - 2023-07-15 07:57:18 --> Invalid file: "template/admin/layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/admin/layout.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('template/admin/layout', [], true)
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('surveillance/tambah_data', [], true)
+ 4 APPPATH\Controllers\Surveillance.php(21): view('surveillance/tambah_data')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Surveillance->tambah_data()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surveillance))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pradana\\Desktop\\skripsi\\coding\\projek\\public\\index.php')
+CRITICAL - 2023-07-15 07:58:12 --> Invalid file: "template/admin/layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/admin/layout.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('template/admin/layout', [], true)
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('surveillance/tambah_data', [], true)
+ 4 APPPATH\Controllers\Surveillance.php(21): view('surveillance/tambah_data')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Surveillance->tambah_data()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surveillance))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pradana\\Desktop\\skripsi\\coding\\projek\\public\\index.php')
+CRITICAL - 2023-07-15 07:58:16 --> Invalid file: "template/admin/layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/admin/layout.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('template/admin/layout', [], true)
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('surveillance/tambah_data', [], true)
+ 4 APPPATH\Controllers\Surveillance.php(21): view('surveillance/tambah_data')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Surveillance->tambah_data()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surveillance))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pradana\\Desktop\\skripsi\\coding\\projek\\public\\index.php')
+ERROR - 2023-07-15 12:59:01 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'bansos' in D:\laragon\www\bansos\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\laragon\www\bansos\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bansos', 3306, '', 0)
+#1 D:\laragon\www\bansos\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\laragon\www\bansos\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\laragon\www\bansos\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\laragon\www\bansos\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\laragon\www\bansos\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\laragon\www\bansos\system\Database\MigrationRunner.php(241): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\laragon\www\bansos\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 D:\laragon\www\bansos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 D:\laragon\www\bansos\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 D:\laragon\www\bansos\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 D:\laragon\www\bansos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 D:\laragon\www\bansos\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 D:\laragon\www\bansos\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'bansos' in D:\laragon\www\bansos\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\laragon\www\bansos\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\bansos\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\bansos\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\laragon\www\bansos\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\laragon\www\bansos\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\laragon\www\bansos\system\Database\MigrationRunner.php(241): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\laragon\www\bansos\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#7 D:\laragon\www\bansos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#8 D:\laragon\www\bansos\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#9 D:\laragon\www\bansos\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#10 D:\laragon\www\bansos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#11 D:\laragon\www\bansos\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#12 D:\laragon\www\bansos\spark(97): CodeIgniter\CLI\Console->run()
+#13 {main}
+ERROR - 2023-07-15 12:59:01 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'bansos' in D:\laragon\www\bansos\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\laragon\www\bansos\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bansos', 3306, '', 0)
+#1 D:\laragon\www\bansos\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\laragon\www\bansos\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\laragon\www\bansos\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\laragon\www\bansos\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\laragon\www\bansos\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\laragon\www\bansos\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\laragon\www\bansos\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\laragon\www\bansos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\laragon\www\bansos\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\laragon\www\bansos\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 D:\laragon\www\bansos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 D:\laragon\www\bansos\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 D:\laragon\www\bansos\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'bansos' in D:\laragon\www\bansos\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\laragon\www\bansos\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\bansos\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\bansos\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\laragon\www\bansos\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\laragon\www\bansos\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\laragon\www\bansos\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\laragon\www\bansos\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\laragon\www\bansos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\laragon\www\bansos\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\laragon\www\bansos\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#10 D:\laragon\www\bansos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#11 D:\laragon\www\bansos\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#12 D:\laragon\www\bansos\spark(97): CodeIgniter\CLI\Console->run()
+#13 {main}
+ERROR - 2023-07-15 13:12:51 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bansos`.`desa`, CONSTRAINT `desa_kecamatan_id_foreign` FOREIGN KEY (`kecamatan_id`) REFERENCES `kecamatan` (`kecamatan_id`)) in D:\laragon\www\bansos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\laragon\www\bansos\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `de...', 0)
+#1 D:\laragon\www\bansos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 D:\laragon\www\bansos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 D:\laragon\www\bansos\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 D:\laragon\www\bansos\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\bansos\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\bansos\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\laragon\www\bansos\system\BaseModel.php(692): CodeIgniter\Model->insert(Object(App\Entities\Desa), false)
+#8 D:\laragon\www\bansos\app\Entities\BaseEntity.php(23): CodeIgniter\BaseModel->save(Object(App\Entities\Desa))
+#9 D:\laragon\www\bansos\app\Database\Seeds\InitSeeder.php(37): App\Entities\BaseEntity->save()
+#10 D:\laragon\www\bansos\system\Database\Seeder.php(146): App\Database\Seeds\InitSeeder->run()
+#11 D:\laragon\www\bansos\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#12 D:\laragon\www\bansos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#13 D:\laragon\www\bansos\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#14 D:\laragon\www\bansos\spark(97): CodeIgniter\CLI\Console->run()
+#15 {main}
+ERROR - 2023-07-15 13:13:57 --> mysqli_sql_exception: Duplicate entry '3303017112830002' for key 'warga.warga_nik' in D:\laragon\www\bansos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\laragon\www\bansos\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `wa...', 0)
+#1 D:\laragon\www\bansos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 D:\laragon\www\bansos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 D:\laragon\www\bansos\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 D:\laragon\www\bansos\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\bansos\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\bansos\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\laragon\www\bansos\system\BaseModel.php(692): CodeIgniter\Model->insert(Object(App\Entities\Warga), false)
+#8 D:\laragon\www\bansos\app\Entities\BaseEntity.php(23): CodeIgniter\BaseModel->save(Object(App\Entities\Warga))
+#9 D:\laragon\www\bansos\app\Database\Seeds\InitSeeder.php(54): App\Entities\BaseEntity->save()
+#10 D:\laragon\www\bansos\system\Database\Seeder.php(146): App\Database\Seeds\InitSeeder->run()
+#11 D:\laragon\www\bansos\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#12 D:\laragon\www\bansos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#13 D:\laragon\www\bansos\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#14 D:\laragon\www\bansos\spark(97): CodeIgniter\CLI\Console->run()
+#15 {main}

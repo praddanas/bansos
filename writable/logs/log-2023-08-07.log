@@ -1,0 +1,98 @@
+INFO - 2023-08-07 04:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 04:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 04:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 04:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 04:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 04:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 04:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-07 04:23:44 --> [DEPRECATED] Optional parameter $status declared before required parameter $kecamatan_id is implicitly treated as a required parameter in APPPATH\Entities\JenisBansos.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\bansos\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\bansos\\app\\Entities\\JenisBansos.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Entities\\JenisBansos')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Entities\\JenisBansos')
+ 5 SYSTEMPATH\Database\MySQLi\Result.php(150): is_subclass_of('App\\Entities\\JenisBansos', 'CodeIgniter\\Entity\\Entity')
+ 6 SYSTEMPATH\Database\BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\JenisBansos')
+ 7 SYSTEMPATH\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\JenisBansos')
+ 8 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\JenisBansos')
+ 9 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+10 APPPATH\Controllers\Admin\AdminController.php(14): CodeIgniter\BaseModel->findAll()
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\AdminController->index()
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\bansos\\public\\index.php')
+INFO - 2023-08-07 04:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 04:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-07 04:23:56 --> [DEPRECATED] Optional parameter $status declared before required parameter $kecamatan_id is implicitly treated as a required parameter in APPPATH\Entities\JenisBansos.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\bansos\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\bansos\\app\\Entities\\JenisBansos.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Entities\\JenisBansos')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Entities\\JenisBansos')
+ 5 SYSTEMPATH\Database\MySQLi\Result.php(150): is_subclass_of('App\\Entities\\JenisBansos', 'CodeIgniter\\Entity\\Entity')
+ 6 SYSTEMPATH\Database\BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\JenisBansos')
+ 7 SYSTEMPATH\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\JenisBansos')
+ 8 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\JenisBansos')
+ 9 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+10 APPPATH\Controllers\Admin\JenisBansosController.php(20): CodeIgniter\BaseModel->findAll()
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\JenisBansosController->get_table()
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\JenisBansosController))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\bansos\\public\\index.php')
+INFO - 2023-08-07 04:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 04:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 04:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-07 04:24:12 --> [DEPRECATED] Optional parameter $status declared before required parameter $kecamatan_id is implicitly treated as a required parameter in APPPATH\Entities\JenisBansos.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\bansos\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\bansos\\app\\Entities\\JenisBansos.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Entities\\JenisBansos')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Entities\\JenisBansos')
+ 5 SYSTEMPATH\Database\MySQLi\Result.php(150): is_subclass_of('App\\Entities\\JenisBansos', 'CodeIgniter\\Entity\\Entity')
+ 6 SYSTEMPATH\Database\BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\JenisBansos')
+ 7 SYSTEMPATH\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\JenisBansos')
+ 8 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\JenisBansos')
+ 9 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+10 APPPATH\Controllers\Admin\AdminController.php(14): CodeIgniter\BaseModel->findAll()
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\AdminController->index()
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\bansos\\public\\index.php')
+INFO - 2023-08-07 04:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-07 04:24:14 --> [DEPRECATED] Optional parameter $status declared before required parameter $kecamatan_id is implicitly treated as a required parameter in APPPATH\Entities\JenisBansos.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\bansos\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\bansos\\app\\Entities\\JenisBansos.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Entities\\JenisBansos')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Entities\\JenisBansos')
+ 5 SYSTEMPATH\Database\MySQLi\Result.php(150): is_subclass_of('App\\Entities\\JenisBansos', 'CodeIgniter\\Entity\\Entity')
+ 6 SYSTEMPATH\Database\BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\JenisBansos')
+ 7 SYSTEMPATH\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\JenisBansos')
+ 8 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\JenisBansos')
+ 9 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+10 APPPATH\Controllers\Surveillance\SurveillanceController.php(14): CodeIgniter\BaseModel->findAll()
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Surveillance\SurveillanceController->index()
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surveillance\SurveillanceController))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\bansos\\public\\index.php')
+INFO - 2023-08-07 04:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 04:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 04:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 04:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 04:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-07 04:31:10 --> [DEPRECATED] Optional parameter $status declared before required parameter $kecamatan_id is implicitly treated as a required parameter in APPPATH\Entities\JenisBansos.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\bansos\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\bansos\\app\\Entities\\JenisBansos.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Entities\\JenisBansos')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Entities\\JenisBansos')
+ 5 SYSTEMPATH\Database\MySQLi\Result.php(150): is_subclass_of('App\\Entities\\JenisBansos', 'CodeIgniter\\Entity\\Entity')
+ 6 SYSTEMPATH\Database\BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\JenisBansos')
+ 7 SYSTEMPATH\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\JenisBansos')
+ 8 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\JenisBansos')
+ 9 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+10 APPPATH\Controllers\Admin\AdminController.php(14): CodeIgniter\BaseModel->findAll()
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\AdminController->index()
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\bansos\\public\\index.php')

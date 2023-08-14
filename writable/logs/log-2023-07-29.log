@@ -1,0 +1,153 @@
+INFO - 2023-07-29 14:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-29 14:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-29 14:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-29 14:04:51 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\laragon\www\bansos\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\laragon\www\bansos\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bansos', 3306, '', 0)
+#1 C:\laragon\www\bansos\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\bansos\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\bansos\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\bansos\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\bansos\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\bansos\app\Views\user\data_cari.php(8): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\bansos\system\View\View.php(224): include('C:\\laragon\\www\\...')
+#8 C:\laragon\www\bansos\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 C:\laragon\www\bansos\system\Common.php(1180): CodeIgniter\View\View->render('user/data_cari', Array, true)
+#10 C:\laragon\www\bansos\app\Controllers\User.php(20): view('user/data_cari')
+#11 C:\laragon\www\bansos\system\CodeIgniter.php(932): App\Controllers\User->data_cari()
+#12 C:\laragon\www\bansos\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#13 C:\laragon\www\bansos\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\laragon\www\bansos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#15 C:\laragon\www\bansos\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\laragon\www\bansos\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\laragon\www\bansos\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\bansos\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\bansos\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\bansos\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\bansos\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\laragon\www\bansos\app\Views\user\data_cari.php(8): CodeIgniter\BaseModel->first()
+#6 C:\laragon\www\bansos\system\View\View.php(224): include('C:\\laragon\\www\\...')
+#7 C:\laragon\www\bansos\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\laragon\www\bansos\system\Common.php(1180): CodeIgniter\View\View->render('user/data_cari', Array, true)
+#9 C:\laragon\www\bansos\app\Controllers\User.php(20): view('user/data_cari')
+#10 C:\laragon\www\bansos\system\CodeIgniter.php(932): App\Controllers\User->data_cari()
+#11 C:\laragon\www\bansos\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#12 C:\laragon\www\bansos\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\laragon\www\bansos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 C:\laragon\www\bansos\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#15 {main}
+CRITICAL - 2023-07-29 14:04:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `warga`
+WHERE `warga_nik` = :warga_nik:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Views\user\data_cari.php(8): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\bansos\\app\\Views\\user\\data_cari.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/data_cari', [], true)
+ 9 APPPATH\Controllers\User.php(20): view('user/data_cari')
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->data_cari()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\bansos\\public\\index.php')
+INFO - 2023-07-29 14:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-29 14:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-29 14:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-29 14:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-29 14:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-29 14:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-29 14:05:12 --> [DEPRECATED] Optional parameter $status declared before required parameter $kecamatan_id is implicitly treated as a required parameter in APPPATH\Entities\JenisBansos.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\bansos\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\bansos\\app\\Entities\\JenisBansos.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Entities\\JenisBansos')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Entities\\JenisBansos')
+ 5 SYSTEMPATH\Database\MySQLi\Result.php(150): is_subclass_of('App\\Entities\\JenisBansos', 'CodeIgniter\\Entity\\Entity')
+ 6 SYSTEMPATH\Database\BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\JenisBansos')
+ 7 SYSTEMPATH\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\JenisBansos')
+ 8 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\JenisBansos')
+ 9 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+10 APPPATH\Controllers\Admin\AdminController.php(14): CodeIgniter\BaseModel->findAll()
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\AdminController->index()
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\bansos\\public\\index.php')
+INFO - 2023-07-29 14:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-29 14:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-29 14:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-29 14:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-29 14:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-29 14:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-29 14:05:43 --> [DEPRECATED] Optional parameter $status declared before required parameter $kecamatan_id is implicitly treated as a required parameter in APPPATH\Entities\JenisBansos.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\bansos\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\bansos\\app\\Entities\\JenisBansos.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Entities\\JenisBansos')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Entities\\JenisBansos')
+ 5 SYSTEMPATH\Database\MySQLi\Result.php(150): is_subclass_of('App\\Entities\\JenisBansos', 'CodeIgniter\\Entity\\Entity')
+ 6 SYSTEMPATH\Database\BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\JenisBansos')
+ 7 SYSTEMPATH\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\JenisBansos')
+ 8 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\JenisBansos')
+ 9 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+10 APPPATH\Controllers\Admin\JenisBansosController.php(20): CodeIgniter\BaseModel->findAll()
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\JenisBansosController->get_table()
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\JenisBansosController))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\bansos\\public\\index.php')
+INFO - 2023-07-29 14:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-29 14:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-29 14:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-29 14:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-29 14:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-29 14:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-29 14:05:48 --> [DEPRECATED] Optional parameter $status declared before required parameter $kecamatan_id is implicitly treated as a required parameter in APPPATH\Entities\Bansos.php on line 28.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\bansos\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\bansos\\app\\Entities\\Bansos.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Entities\\Bansos')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Entities\\Bansos')
+ 5 SYSTEMPATH\Database\MySQLi\Result.php(150): is_subclass_of('App\\Entities\\Bansos', 'CodeIgniter\\Entity\\Entity')
+ 6 SYSTEMPATH\Database\BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\Bansos')
+ 7 SYSTEMPATH\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\Bansos')
+ 8 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\Bansos')
+ 9 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+10 APPPATH\Controllers\Admin\DataBansosController.php(21): CodeIgniter\BaseModel->findAll()
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataBansosController->get_table()
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataBansosController))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\bansos\\public\\index.php')
+WARNING - 2023-07-29 14:05:48 --> [DEPRECATED] Optional parameter $status declared before required parameter $kecamatan_id is implicitly treated as a required parameter in APPPATH\Entities\JenisBansos.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\bansos\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\bansos\\app\\Entities\\JenisBansos.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Entities\\JenisBansos')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Entities\\JenisBansos')
+ 5 SYSTEMPATH\Database\MySQLi\Result.php(150): is_subclass_of('App\\Entities\\JenisBansos', 'CodeIgniter\\Entity\\Entity')
+ 6 SYSTEMPATH\Database\BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\JenisBansos')
+ 7 SYSTEMPATH\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\JenisBansos')
+ 8 SYSTEMPATH\Database\BaseResult.php(391): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\JenisBansos')
+ 9 SYSTEMPATH\Model.php(201): CodeIgniter\Database\BaseResult->getFirstRow('App\\Entities\\JenisBansos')
+10 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '5')
+11 APPPATH\Entities\Bansos.php(21): CodeIgniter\BaseModel->find('5')
+12 SYSTEMPATH\Entity\Entity.php(491): App\Entities\Bansos->getJenis()
+13 APPPATH\Views\admin\bansos\table.php(22): CodeIgniter\Entity\Entity->__get('jenis')
+14 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\bansos\\app\\Views\\admin\\bansos\\table.php')
+15 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+16 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/bansos/table', [], true)
+17 APPPATH\Controllers\BaseController.php(66): view('admin/bansos/table', [...])
+18 APPPATH\Controllers\Admin\DataBansosController.php(22): App\Controllers\BaseController->renderView('admin/bansos/table', [...])
+19 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DataBansosController->get_table()
+20 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataBansosController))
+21 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+22 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+23 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\bansos\\public\\index.php')
+INFO - 2023-07-29 14:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-29 14:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

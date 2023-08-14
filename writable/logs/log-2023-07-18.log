@@ -1,0 +1,939 @@
+INFO - 2023-07-18 03:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 03:13:09 --> Invalid file: "admin/warga/data.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/warga/data.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/warga/data', [], true)
+ 3 APPPATH\Controllers\BaseController.php(66): view('admin/warga/data', [...])
+ 4 APPPATH\Controllers\Admin\WargaController.php(16): App\Controllers\BaseController->renderView('admin/warga/data', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\WargaController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\WargaController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 03:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 03:20:11 --> Too few arguments to function App\Controllers\Admin\WargaController::detail(), 0 passed in D:\laragon\www_new\bansos\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Admin\WargaController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\WargaController->detail()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\WargaController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 03:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:39:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-18 03:54:32 --> mysqli_sql_exception: Unknown column 'warga' in 'where clause' in D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\laragon\www_new\bansos\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\laragon\www_new\bansos\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www_new\bansos\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('330301440303000...', 'warga', Array, NULL, 'nik')
+#6 D:\laragon\www_new\bansos\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('nik', 'NIK', '330301440303000...', Array, Array)
+#7 D:\laragon\www_new\bansos\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 D:\laragon\www_new\bansos\app\Controllers\Admin\WargaController.php(92): CodeIgniter\Controller->validate(Array)
+#9 D:\laragon\www_new\bansos\system\CodeIgniter.php(932): App\Controllers\Admin\WargaController->tambah()
+#10 D:\laragon\www_new\bansos\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\WargaController))
+#11 D:\laragon\www_new\bansos\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\laragon\www_new\bansos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-18 03:54:32 --> Unknown column 'warga' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `warga`
+WHERE `warga` = \'3303014403030003\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `warga`
+WHERE `warga` = \'3303014403030003\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `warga`
+WHERE `warga` = \'3303014403030003\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `warga`
+WHERE `warga` = :warga:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('3303014403030003', 'warga', [...], null, 'nik')
+ 7 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('nik', 'NIK', '3303014403030003', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Admin\WargaController.php(92): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\WargaController->tambah()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\WargaController))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 03:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-18 03:54:35 --> mysqli_sql_exception: Unknown column 'warga' in 'where clause' in D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\laragon\www_new\bansos\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\laragon\www_new\bansos\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www_new\bansos\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('330301440303000...', 'warga', Array, NULL, 'nik')
+#6 D:\laragon\www_new\bansos\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('nik', 'NIK', '330301440303000...', Array, Array)
+#7 D:\laragon\www_new\bansos\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 D:\laragon\www_new\bansos\app\Controllers\Admin\WargaController.php(92): CodeIgniter\Controller->validate(Array)
+#9 D:\laragon\www_new\bansos\system\CodeIgniter.php(932): App\Controllers\Admin\WargaController->tambah()
+#10 D:\laragon\www_new\bansos\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\WargaController))
+#11 D:\laragon\www_new\bansos\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\laragon\www_new\bansos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-18 03:54:35 --> Unknown column 'warga' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `warga`
+WHERE `warga` = \'3303014403030003\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `warga`
+WHERE `warga` = \'3303014403030003\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `warga`
+WHERE `warga` = \'3303014403030003\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `warga`
+WHERE `warga` = :warga:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('3303014403030003', 'warga', [...], null, 'nik')
+ 7 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('nik', 'NIK', '3303014403030003', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Admin\WargaController.php(92): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\WargaController->tambah()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\WargaController))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 03:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-18 03:54:48 --> mysqli_sql_exception: Unknown column 'warga' in 'where clause' in D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\laragon\www_new\bansos\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\laragon\www_new\bansos\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www_new\bansos\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('330301440303000...', 'warga', Array, NULL, 'nik')
+#6 D:\laragon\www_new\bansos\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('nik', 'NIK', '330301440303000...', Array, Array)
+#7 D:\laragon\www_new\bansos\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 D:\laragon\www_new\bansos\app\Controllers\Admin\WargaController.php(92): CodeIgniter\Controller->validate(Array)
+#9 D:\laragon\www_new\bansos\system\CodeIgniter.php(932): App\Controllers\Admin\WargaController->tambah()
+#10 D:\laragon\www_new\bansos\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\WargaController))
+#11 D:\laragon\www_new\bansos\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\laragon\www_new\bansos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-18 03:54:48 --> Unknown column 'warga' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `warga`
+WHERE `warga` = \'3303014403030003\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `warga`
+WHERE `warga` = \'3303014403030003\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `warga`
+WHERE `warga` = \'3303014403030003\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `warga`
+WHERE `warga` = :warga:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('3303014403030003', 'warga', [...], null, 'nik')
+ 7 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('nik', 'NIK', '3303014403030003', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Admin\WargaController.php(92): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\WargaController->tambah()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\WargaController))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 03:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-18 03:55:34 --> mysqli_sql_exception: Unknown column 'nik' in 'where clause' in D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\laragon\www_new\bansos\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\laragon\www_new\bansos\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www_new\bansos\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('330301440303000...', 'nik', Array, NULL, 'nik')
+#6 D:\laragon\www_new\bansos\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('nik', 'NIK', '330301440303000...', Array, Array)
+#7 D:\laragon\www_new\bansos\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 D:\laragon\www_new\bansos\app\Controllers\Admin\WargaController.php(92): CodeIgniter\Controller->validate(Array)
+#9 D:\laragon\www_new\bansos\system\CodeIgniter.php(932): App\Controllers\Admin\WargaController->tambah()
+#10 D:\laragon\www_new\bansos\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\WargaController))
+#11 D:\laragon\www_new\bansos\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\laragon\www_new\bansos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-18 03:55:34 --> Unknown column 'nik' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `warga`
+WHERE `nik` = \'3303014403030003\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `warga`
+WHERE `nik` = \'3303014403030003\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `warga`
+WHERE `nik` = \'3303014403030003\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `warga`
+WHERE `nik` = :nik:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('3303014403030003', 'nik', [...], null, 'nik')
+ 7 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('nik', 'NIK', '3303014403030003', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Admin\WargaController.php(92): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\WargaController->tambah()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\WargaController))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 03:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 04:02:00 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('20', Object(App\Entities\Desa))
+ 4 APPPATH\Entities\BaseEntity.php(23): CodeIgniter\BaseModel->save(Object(App\Entities\Desa))
+ 5 APPPATH\Controllers\Admin\WargaController.php(108): App\Entities\BaseEntity->save()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\WargaController->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\WargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 04:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 04:12:18 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Entities\BaseEntity.php(33): CodeIgniter\Model->update(null, Object(App\Entities\Warga))
+ 4 APPPATH\Controllers\Admin\WargaController.php(179): App\Entities\BaseEntity->update()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\WargaController->edit('277')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\WargaController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 04:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 04:12:57 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Entities\BaseEntity.php(33): CodeIgniter\Model->update(null, Object(App\Entities\Warga))
+ 4 APPPATH\Controllers\Admin\WargaController.php(179): App\Entities\BaseEntity->update()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\WargaController->edit('277')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\WargaController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 04:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 04:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 04:59:11 --> Invalid file: "admin/kecamatan/data.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/kecamatan/data.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/kecamatan/data', [], true)
+ 3 APPPATH\Controllers\BaseController.php(66): view('admin/kecamatan/data', [...])
+ 4 APPPATH\Controllers\Admin\KecamatanController.php(14): App\Controllers\BaseController->renderView('admin/kecamatan/data', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\KecamatanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KecamatanController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 05:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 05:02:51 --> Invalid file: "admin/kecamatan/table.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/kecamatan/table.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/kecamatan/table', [], true)
+ 3 APPPATH\Controllers\BaseController.php(66): view('admin/kecamatan/table', [...])
+ 4 APPPATH\Controllers\Admin\KecamatanController.php(21): App\Controllers\BaseController->renderView('admin/kecamatan/table', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\KecamatanController->get_table()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KecamatanController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 05:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 05:03:51 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Entities\BaseEntity.php(33): CodeIgniter\Model->update(null, Object(App\Entities\Kecamatan))
+ 4 APPPATH\Controllers\Admin\KecamatanController.php(70): App\Entities\BaseEntity->update()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\KecamatanController->edit('19')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KecamatanController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 05:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 05:04:45 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Entities\BaseEntity.php(33): CodeIgniter\Model->update(null, Object(App\Entities\Kecamatan))
+ 4 APPPATH\Controllers\Admin\KecamatanController.php(70): App\Entities\BaseEntity->update()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\KecamatanController->edit('19')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KecamatanController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 05:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 05:10:18 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Entities\BaseEntity.php(33): CodeIgniter\Model->update(null, Object(App\Entities\User))
+ 4 APPPATH\Controllers\Admin\KecamatanController.php(82): App\Entities\BaseEntity->update()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\KecamatanController->edit('21')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KecamatanController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 05:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-18 05:11:41 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bansos`.`user`, CONSTRAINT `user_kecamatan_id_foreign` FOREIGN KEY (`kecamatan_id`) REFERENCES `kecamatan` (`kecamatan_id`)) in D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ke...', 0)
+#1 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ke...')
+#2 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ke...')
+#3 D:\laragon\www_new\bansos\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ke...', Array, false)
+#4 D:\laragon\www_new\bansos\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\laragon\www_new\bansos\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 D:\laragon\www_new\bansos\app\Entities\BaseEntity.php(45): CodeIgniter\BaseModel->delete(Array, false)
+#7 D:\laragon\www_new\bansos\app\Controllers\Admin\KecamatanController.php(98): App\Entities\BaseEntity->delete()
+#8 D:\laragon\www_new\bansos\system\CodeIgniter.php(932): App\Controllers\Admin\KecamatanController->delete('21')
+#9 D:\laragon\www_new\bansos\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KecamatanController))
+#10 D:\laragon\www_new\bansos\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www_new\bansos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-18 05:11:41 --> Cannot delete or update a parent row: a foreign key constraint fails (`bansos`.`user`, CONSTRAINT `user_kecamatan_id_foreign` FOREIGN KEY (`kecamatan_id`) REFERENCES `kecamatan` (`kecamatan_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `kecamatan`
+WHERE `kecamatan_id` IN (\'21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `kecamatan`
+WHERE `kecamatan_id` IN (\'21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `kecamatan`
+WHERE `kecamatan_id` IN (\'21\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kecamatan`
+WHERE `kecamatan_id` IN :kecamatan_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Entities\BaseEntity.php(45): CodeIgniter\BaseModel->delete([...], false)
+ 8 APPPATH\Controllers\Admin\KecamatanController.php(98): App\Entities\BaseEntity->delete()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\KecamatanController->delete('21')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KecamatanController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 05:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-18 05:11:48 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bansos`.`user`, CONSTRAINT `user_kecamatan_id_foreign` FOREIGN KEY (`kecamatan_id`) REFERENCES `kecamatan` (`kecamatan_id`)) in D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ke...', 0)
+#1 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ke...')
+#2 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ke...')
+#3 D:\laragon\www_new\bansos\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ke...', Array, false)
+#4 D:\laragon\www_new\bansos\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\laragon\www_new\bansos\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 D:\laragon\www_new\bansos\app\Entities\BaseEntity.php(45): CodeIgniter\BaseModel->delete(Array, false)
+#7 D:\laragon\www_new\bansos\app\Controllers\Admin\KecamatanController.php(98): App\Entities\BaseEntity->delete()
+#8 D:\laragon\www_new\bansos\system\CodeIgniter.php(932): App\Controllers\Admin\KecamatanController->delete('21')
+#9 D:\laragon\www_new\bansos\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KecamatanController))
+#10 D:\laragon\www_new\bansos\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www_new\bansos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-18 05:11:48 --> Cannot delete or update a parent row: a foreign key constraint fails (`bansos`.`user`, CONSTRAINT `user_kecamatan_id_foreign` FOREIGN KEY (`kecamatan_id`) REFERENCES `kecamatan` (`kecamatan_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `kecamatan`
+WHERE `kecamatan_id` IN (\'21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `kecamatan`
+WHERE `kecamatan_id` IN (\'21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `kecamatan`
+WHERE `kecamatan_id` IN (\'21\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kecamatan`
+WHERE `kecamatan_id` IN :kecamatan_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Entities\BaseEntity.php(45): CodeIgniter\BaseModel->delete([...], false)
+ 8 APPPATH\Controllers\Admin\KecamatanController.php(98): App\Entities\BaseEntity->delete()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\KecamatanController->delete('21')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KecamatanController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 05:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 05:23:08 --> Undefined variable: kecamatan
+in APPPATH\Views\admin\kecamatan\desa\data.php on line 11.
+ 1 APPPATH\Views\admin\kecamatan\desa\data.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kecamatan', 'D:\\laragon\\www_new\\bansos\\app\\Views\\admin\\kecamatan\\desa\\data.php', 11, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\laragon\\www_new\\bansos\\app\\Views\\admin\\kecamatan\\desa\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/kecamatan/desa/data', [], true)
+ 5 APPPATH\Controllers\BaseController.php(66): view('admin/kecamatan/desa/data', [...])
+ 6 APPPATH\Controllers\Admin\DesaController.php(19): App\Controllers\BaseController->renderView('admin/kecamatan/desa/data', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DesaController->index('9')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DesaController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 05:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 05:24:16 --> Undefined variable: kecamatans
+in APPPATH\Views\admin\kecamatan\table.php on line 13.
+ 1 APPPATH\Views\admin\kecamatan\table.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kecamatans', 'D:\\laragon\\www_new\\bansos\\app\\Views\\admin\\kecamatan\\table.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\laragon\\www_new\\bansos\\app\\Views\\admin\\kecamatan\\table.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/kecamatan/table', [], true)
+ 5 APPPATH\Controllers\BaseController.php(66): view('admin/kecamatan/table', [...])
+ 6 APPPATH\Controllers\Admin\DesaController.php(28): App\Controllers\BaseController->renderView('admin/kecamatan/table', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DesaController->get_table('9')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DesaController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 05:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 05:25:57 --> Undefined variable: kecamatans
+in APPPATH\Views\admin\kecamatan\table.php on line 13.
+ 1 APPPATH\Views\admin\kecamatan\table.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kecamatans', 'D:\\laragon\\www_new\\bansos\\app\\Views\\admin\\kecamatan\\table.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\laragon\\www_new\\bansos\\app\\Views\\admin\\kecamatan\\table.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/kecamatan/table', [], true)
+ 5 APPPATH\Controllers\BaseController.php(66): view('admin/kecamatan/table', [...])
+ 6 APPPATH\Controllers\Admin\DesaController.php(28): App\Controllers\BaseController->renderView('admin/kecamatan/table', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DesaController->get_table('9')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DesaController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 05:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 05:26:09 --> Undefined variable: kecamatan
+in APPPATH\Views\admin\kecamatan\desa\table.php on line 19.
+ 1 APPPATH\Views\admin\kecamatan\desa\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kecamatan', 'D:\\laragon\\www_new\\bansos\\app\\Views\\admin\\kecamatan\\desa\\table.php', 19, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\laragon\\www_new\\bansos\\app\\Views\\admin\\kecamatan\\desa\\table.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/kecamatan/desa/table', [], true)
+ 5 APPPATH\Controllers\BaseController.php(66): view('admin/kecamatan/desa/table', [...])
+ 6 APPPATH\Controllers\Admin\DesaController.php(28): App\Controllers\BaseController->renderView('admin/kecamatan/desa/table', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DesaController->get_table('9')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DesaController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 05:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 05:27:49 --> Undefined variable: kecamatan
+in APPPATH\Views\admin\kecamatan\desa\tambah.php on line 9.
+ 1 APPPATH\Views\admin\kecamatan\desa\tambah.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kecamatan', 'D:\\laragon\\www_new\\bansos\\app\\Views\\admin\\kecamatan\\desa\\tambah.php', 9, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\laragon\\www_new\\bansos\\app\\Views\\admin\\kecamatan\\desa\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/kecamatan/desa/tambah', [], true)
+ 5 APPPATH\Controllers\BaseController.php(66): view('admin/kecamatan/desa/tambah', [...])
+ 6 APPPATH\Controllers\Admin\DesaController.php(64): App\Controllers\BaseController->renderView('admin/kecamatan/desa/tambah', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DesaController->tambah('9')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DesaController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 05:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 05:28:00 --> compact(): Undefined variable: kecamatan
+in APPPATH\Controllers\Admin\DesaController.php on line 64.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'compact(): Undefined variable: kecamatan', 'D:\\laragon\\www_new\\bansos\\app\\Controllers\\Admin\\DesaController.php', 64, [...])
+ 2 APPPATH\Controllers\Admin\DesaController.php(64): compact('page_title', 'kecamatan')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DesaController->tambah('9')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DesaController))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 05:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 05:29:43 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Entities\BaseEntity.php(33): CodeIgniter\Model->update(null, Object(App\Entities\Desa))
+ 4 APPPATH\Controllers\Admin\DesaController.php(93): App\Entities\BaseEntity->update()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\DesaController->edit('9', '140')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DesaController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 05:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-18 05:45:56 --> mysqli_sql_exception: Cannot add foreign key constraint in D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `b...', 0)
+#1 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 D:\laragon\www_new\bansos\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 D:\laragon\www_new\bansos\app\Database\Migrations\2023-07-15-133649_Bansos.php(30): CodeIgniter\Database\Forge->createTable('bansos')
+#5 D:\laragon\www_new\bansos\system\Database\MigrationRunner.php(877): App\Database\Migrations\Bansos->up()
+#6 D:\laragon\www_new\bansos\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\laragon\www_new\bansos\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\laragon\www_new\bansos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\laragon\www_new\bansos\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\laragon\www_new\bansos\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 D:\laragon\www_new\bansos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 D:\laragon\www_new\bansos\system\Common.php(197): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 D:\laragon\www_new\bansos\app\Commands\InitDatabase.php(59): command('migrate:refresh')
+#14 D:\laragon\www_new\bansos\system\CLI\Commands.php(65): App\Commands\InitDatabase->run(Array)
+#15 D:\laragon\www_new\bansos\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('database:init', Array)
+#16 D:\laragon\www_new\bansos\spark(97): CodeIgniter\CLI\Console->run()
+#17 {main}
+ERROR - 2023-07-18 05:45:56 --> mysqli_sql_exception: Table 'bansos.user' doesn't exist in D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\laragon\www_new\bansos\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\laragon\www_new\bansos\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www_new\bansos\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www_new\bansos\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\laragon\www_new\bansos\system\BaseModel.php(692): CodeIgniter\Model->insert(Object(App\Entities\User), false)
+#8 D:\laragon\www_new\bansos\app\Entities\BaseEntity.php(23): CodeIgniter\BaseModel->save(Object(App\Entities\User))
+#9 D:\laragon\www_new\bansos\app\Database\Seeds\InitSeeder.php(29): App\Entities\BaseEntity->save()
+#10 D:\laragon\www_new\bansos\system\Database\Seeder.php(146): App\Database\Seeds\InitSeeder->run()
+#11 D:\laragon\www_new\bansos\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#12 D:\laragon\www_new\bansos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#13 D:\laragon\www_new\bansos\system\Common.php(197): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#14 D:\laragon\www_new\bansos\app\Commands\InitDatabase.php(60): command('db:seed')
+#15 D:\laragon\www_new\bansos\system\CLI\Commands.php(65): App\Commands\InitDatabase->run(Array)
+#16 D:\laragon\www_new\bansos\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('database:init', Array)
+#17 D:\laragon\www_new\bansos\spark(97): CodeIgniter\CLI\Console->run()
+#18 {main}
+ERROR - 2023-07-18 05:46:17 --> mysqli_sql_exception: Cannot add foreign key constraint in D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `b...', 0)
+#1 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 D:\laragon\www_new\bansos\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 D:\laragon\www_new\bansos\app\Database\Migrations\2023-07-15-133649_Bansos.php(30): CodeIgniter\Database\Forge->createTable('bansos')
+#5 D:\laragon\www_new\bansos\system\Database\MigrationRunner.php(877): App\Database\Migrations\Bansos->up()
+#6 D:\laragon\www_new\bansos\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\laragon\www_new\bansos\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\laragon\www_new\bansos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\laragon\www_new\bansos\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\laragon\www_new\bansos\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 D:\laragon\www_new\bansos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 D:\laragon\www_new\bansos\system\Common.php(197): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 D:\laragon\www_new\bansos\app\Commands\InitDatabase.php(59): command('migrate:refresh')
+#14 D:\laragon\www_new\bansos\system\CLI\Commands.php(65): App\Commands\InitDatabase->run(Array)
+#15 D:\laragon\www_new\bansos\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('database:init', Array)
+#16 D:\laragon\www_new\bansos\spark(97): CodeIgniter\CLI\Console->run()
+#17 {main}
+ERROR - 2023-07-18 05:46:17 --> mysqli_sql_exception: Table 'bansos.user' doesn't exist in D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\laragon\www_new\bansos\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\laragon\www_new\bansos\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www_new\bansos\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www_new\bansos\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\laragon\www_new\bansos\system\BaseModel.php(692): CodeIgniter\Model->insert(Object(App\Entities\User), false)
+#8 D:\laragon\www_new\bansos\app\Entities\BaseEntity.php(23): CodeIgniter\BaseModel->save(Object(App\Entities\User))
+#9 D:\laragon\www_new\bansos\app\Database\Seeds\InitSeeder.php(29): App\Entities\BaseEntity->save()
+#10 D:\laragon\www_new\bansos\system\Database\Seeder.php(146): App\Database\Seeds\InitSeeder->run()
+#11 D:\laragon\www_new\bansos\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#12 D:\laragon\www_new\bansos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#13 D:\laragon\www_new\bansos\system\Common.php(197): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#14 D:\laragon\www_new\bansos\app\Commands\InitDatabase.php(60): command('db:seed')
+#15 D:\laragon\www_new\bansos\system\CLI\Commands.php(65): App\Commands\InitDatabase->run(Array)
+#16 D:\laragon\www_new\bansos\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('database:init', Array)
+#17 D:\laragon\www_new\bansos\spark(97): CodeIgniter\CLI\Console->run()
+#18 {main}
+ERROR - 2023-07-18 05:46:39 --> mysqli_sql_exception: Unknown column 'jenis_bansos.id' in 'where clause' in D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www_new\bansos\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www_new\bansos\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www_new\bansos\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, 1)
+#6 D:\laragon\www_new\bansos\app\Entities\BaseEntity.php(24): CodeIgniter\BaseModel->find(1)
+#7 D:\laragon\www_new\bansos\app\Database\Seeds\InitSeeder.php(71): App\Entities\BaseEntity->save()
+#8 D:\laragon\www_new\bansos\system\Database\Seeder.php(146): App\Database\Seeds\InitSeeder->run()
+#9 D:\laragon\www_new\bansos\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#10 D:\laragon\www_new\bansos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#11 D:\laragon\www_new\bansos\system\Common.php(197): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#12 D:\laragon\www_new\bansos\app\Commands\InitDatabase.php(60): command('db:seed')
+#13 D:\laragon\www_new\bansos\system\CLI\Commands.php(65): App\Commands\InitDatabase->run(Array)
+#14 D:\laragon\www_new\bansos\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('database:init', Array)
+#15 D:\laragon\www_new\bansos\spark(97): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2023-07-18 05:47:27 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bansos`.`bansos`, CONSTRAINT `bansos_jenis_id_foreign` FOREIGN KEY (`jenis_id`) REFERENCES `jenis_bansos` (`jenis_id`)) in D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\laragon\www_new\bansos\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ba...', 0)
+#1 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\laragon\www_new\bansos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\laragon\www_new\bansos\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\laragon\www_new\bansos\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www_new\bansos\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www_new\bansos\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\laragon\www_new\bansos\system\BaseModel.php(692): CodeIgniter\Model->insert(Object(App\Entities\Bansos), false)
+#8 D:\laragon\www_new\bansos\app\Entities\BaseEntity.php(23): CodeIgniter\BaseModel->save(Object(App\Entities\Bansos))
+#9 D:\laragon\www_new\bansos\app\Database\Seeds\InitSeeder.php(76): App\Entities\BaseEntity->save()
+#10 D:\laragon\www_new\bansos\system\Database\Seeder.php(146): App\Database\Seeds\InitSeeder->run()
+#11 D:\laragon\www_new\bansos\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#12 D:\laragon\www_new\bansos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#13 D:\laragon\www_new\bansos\system\Common.php(197): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#14 D:\laragon\www_new\bansos\app\Commands\InitDatabase.php(60): command('db:seed')
+#15 D:\laragon\www_new\bansos\system\CLI\Commands.php(65): App\Commands\InitDatabase->run(Array)
+#16 D:\laragon\www_new\bansos\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('database:init', Array)
+#17 D:\laragon\www_new\bansos\spark(97): CodeIgniter\CLI\Console->run()
+#18 {main}
+INFO - 2023-07-18 05:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 05:58:40 --> Invalid file: "admin/jenis_bansos/data.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/jenis_bansos/data.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/jenis_bansos/data', [], true)
+ 3 APPPATH\Controllers\BaseController.php(66): view('admin/jenis_bansos/data', [...])
+ 4 APPPATH\Controllers\Admin\JenisBansosController.php(14): App\Controllers\BaseController->renderView('admin/jenis_bansos/data', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\JenisBansosController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\JenisBansosController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-18 06:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
